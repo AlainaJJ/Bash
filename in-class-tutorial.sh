@@ -1,10 +1,10 @@
 # This is the in-class bash script tutorial for CSE 15L
 # Variables
-#MYVAR=Hello
-#echo $MYVAR
+MYVAR=Hello
+echo $MYVAR
 # More complex variable
-#MYVAR2="Hello World"
-#echo $MYVAR2
+MYVAR2="Hello World"
+echo $MYVAR2
 
 # multi-line comment
 << /
@@ -19,15 +19,15 @@ multi-line comment
 #echo ${#a}
 
 # Quote Characters
-# DIR=`pwd`
-# MYVAR='Hello World'
-# MYVAR1="More $MYVAR"
-# MYVAR2='More $MYVAR'
+#DIR=`pwd`
+#MYVAR='Hello World'
+#MYVAR1="More $MYVAR"
+#MYVAR2='More $MYVAR'
 
-# echo 'Quote character examples:'
-# echo "Current directory: $DIR" 
-# echo $MYVAR1
-# echo $MYVAR2
+#echo 'Quote character examples:'
+#echo "Current directory: $DIR" 
+#echo $MYVAR1
+#echo $MYVAR2
 
 # Command substitution
 #MYVAR=$( ls | wc -l )

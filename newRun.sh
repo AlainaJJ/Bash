@@ -1,6 +1,6 @@
 
 bash if [ $# - eq 0 ]
-then 
+then
   echo "No argument is provided"
   exit 1
 fi
